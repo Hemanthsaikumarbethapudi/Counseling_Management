@@ -9,7 +9,6 @@ body{
     background-size: cover;
 
 }
-
 .Header img{
     width : 100%;
     margin-bottom:10px;
@@ -22,8 +21,7 @@ body{
     
 }
 .paste-button {
-    position: relative;
-    display: block;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
