@@ -22,64 +22,74 @@ body{
     
 }
 .paste-button {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .button {
-    background-color: #1975ff;
-    color: #ffffff;
-    padding: 15px 10px;
-    font-size: 15px;
-    font-weight: bold;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-  
-  .dropdown-content {
-    display: none;
-    font-size: 13px;
-    position: absolute;
-    z-index: 1;
-    min-width: 200px;
-    background-color: #ffffff;
-    border: 2px solid #1975ff;
-    border-radius: 0px 15px 15px 15px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
-  .dropdown-content a {
-    color: #000000;
-    padding: 8px 10px;
-    text-decoration: none;
-    display: block;
-    transition: 0.1s;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ff6600;
-    color: #1975ff;
-  }
-  
-  .dropdown-content a:focus {
-    background-color: #212121;
-    color: #4CAF50;
-  }
-  
-  .dropdown-content #top:hover {
-    border-radius: 0px 13px 0px 0px;
-  }
-  
-  .dropdown-content #bottom:hover {
-    border-radius: 0px 0px 13px 13px;
-  }
-  
-  .paste-button:hover button {
-    border-radius: 15px 15px 0px 0px;
-  }
-  
-  .paste-button:hover .dropdown-content {
-    display: block;
-  }
-  
+  text-align: center;
+  position: relative;
+  top: 10rem;
+  border: none;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button button{
+  font-size: large;
+}
+
+.button {
+  text-align: center;
+  background-color: #049bff;
+  color: #ffffff;
+  padding: 20px 35px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  top: 3rem;
+    left: 44rem;
+  z-index: 1;
+  min-width: 200px;
+  background-color: #ffffff;
+  border: 2px solid #049bff;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  text-align: center;
+  color: #049bff;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+  background-color:  #049bff;
+  color: #ffffff;
+}
+
+.dropdown-content a:focus {
+  background-color:  #ffffff;
+  color: #4CAF50;
+}
+
+.dropdown-content #top:hover {
+  border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+  border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+  display: block;
+}
